@@ -1,0 +1,174 @@
+/*Global CSS*/
+*{margin: 0;padding: 0;font-family: 'Lato', sans-serif;/* color: white; */}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+ /*Topbar Section*/
+.topbar{
+padding: 15px 0px;
+background: #f6f9f9;
+}
+
+/*Top bar section end*/
+
+/*Banner section start*/
+.banner{
+	background: url(../image/banner.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 650px;
+	position: relative;
+}
+.herotext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 42%;
+}
+.herotext h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.herotext p{
+    color: white;
+    font-size: 103%;
+    margin-bottom: 108px;
+}
+.herotext .blueline{
+    height: 2.5px;
+    background: #15a4fa;
+    width: 100%;
+    margin-bottom: 41px;
+}
+.herotext .highlight{}
+.herotext .btn{
+    /* margin: 16%; */
+    display: inline-block;
+    margin-bottom: -16%;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #15a4fa;
+    width: -8%;
+    padding: 3%;
+    width: 25%;
+    transition: all 0.35s;
+    /* left: -24%; */
+    /* text-align: center; */
+    /* align-content: center; */
+}
+.down{
+    display: block;
+    position: absolute;
+    padding: 0px 306px;
+    /* padding-top: 42%; */
+    top: 132%;
+    transition: all 0.5s;
+}
+
+.herotext .btn:hover {
+
+	background-color:  #15a4fa;
+}
+
+/*.down:hover{
+	size: 10%;
+	width: 25px;
+	height: 15px;
+	bottom: 1%;
+}
+*/
+/*Banner section end*/
+
+/*About section start*/
+
+.about{
+	background: #f6f9f9;
+	text-align: center;
+	padding: 80px 0;
+}
+.about h1{font-size: 46px;margin-bottom: 37px;font-weight: 500;}
+
+.about p{
+    color: #a0a0a0;
+    line-height: 1.5;
+}
+
+
+/*Feature Section Start*/
+
+.feature {
+    padding: 80px 0;
+}
+.box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: smaller;
+    padding: 18px;
+    box-sizing: border-box;
+}
+.box img{
+    margin-bottom: 8px;
+}
+.box h1{
+    padding: 27px 0px;
+    line-height: 0;
+    font-weight: 600;
+}
+.box p{
+    text height: 2;
+    line-height: 1.7;
+    color: #999999;
+}
+
+/*Feature Section End*/
+
+/*Gallery Section Start*/
+
+.gallery{
+
+}
+
+.gallery .image{
+
+padding-top: 7%;
+}
+
+.gallery h1{
+    /* left: 50%; */
+    padding-left: 33%;
+    padding-bottom: 2%;
+    padding-top: 20%;
+}
+.gallery p{
+    padding-left: 40.4%;
+    font-weight: 100;
+    font-size: 85%;
+    color: #989898;
+    padding-bottom: 5%;
+    padding-top: -23%;
+}
+
+.gallery .pic{
+    width: 33.33%;
+    float: left;
+}
+
+/*
+ .image:hover{
+background: red;*/
+
+/*height: 100%;
+width: 100%;*/
+
+}
+.contact{
+
+}
